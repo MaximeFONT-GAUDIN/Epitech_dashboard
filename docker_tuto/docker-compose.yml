@@ -1,0 +1,7 @@
+version: "3"
+services:
+  monapp:
+    image: mon_image
+    build: .
+    ports:
+      - "80:80"

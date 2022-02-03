@@ -1,0 +1,11 @@
+version: "3"
+services:
+  monapp:
+    image: mon_image
+    ports:
+      - "80:80"
+    networks:
+      - mon_reseau
+
+networks:
+  mon_reseau:
